@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "AirMon"
+Date "2020-01-13"
+Rev "0.1"
+Comp "Jörg Bayer"
+Comment1 "CC BY 4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""

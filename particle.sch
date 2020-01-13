@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "AirMon"
+Date "2020-01-13"
+Rev "0.1"
+Comp "Jörg Bayer"
+Comment1 "CC BY 4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -174,10 +174,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 2200 6700 1600
 $Comp
-L Device:C C7
+L Device:C C6
 U 1 1 5E194A64
 P 4800 1950
-F 0 "C7" H 4915 1996 50  0000 L CNN
+F 0 "C6" H 4915 1996 50  0000 L CNN
 F 1 "10u" H 4915 1905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4838 1800 50  0001 C CNN
 F 3 "~" H 4800 1950 50  0001 C CNN
@@ -202,10 +202,10 @@ Text GLabel 5400 1600 1    50   Input ~ 0
 Text GLabel 6700 1600 1    50   Input ~ 0
 5V_Switched
 $Comp
-L Device:C C4
+L Device:C C7
 U 1 1 5E2321DC
 P 6200 2150
-F 0 "C4" H 6315 2196 50  0000 L CNN
+F 0 "C7" H 6315 2196 50  0000 L CNN
 F 1 "10u" H 6315 2105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 6238 2000 50  0001 C CNN
 F 3 "~" H 6200 2150 50  0001 C CNN
@@ -228,10 +228,10 @@ Connection ~ 5400 2800
 Wire Wire Line
 	5400 2800 5400 2900
 $Comp
-L Connector_Generic:Conn_01x05 J7
+L Connector_Generic:Conn_01x05 J5
 U 1 1 5E1CDC10
 P 8200 2300
-F 0 "J7" H 8280 2342 50  0000 L CNN
+F 0 "J5" H 8280 2342 50  0000 L CNN
 F 1 "Conn_01x05" H 8280 2251 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 8200 2300 50  0001 C CNN
 F 3 "~" H 8200 2300 50  0001 C CNN
@@ -255,8 +255,8 @@ AR Path="/5E15DEC3/5E1CF0A7" Ref="#PWR?"  Part="1"
 AR Path="/5E151517/5E1CF0A7" Ref="#PWR?"  Part="1" 
 AR Path="/5E1961BA/5E1CF0A7" Ref="#PWR?"  Part="1" 
 AR Path="/5E198729/5E1CF0A7" Ref="#PWR?"  Part="1" 
-AR Path="/5E18E639/5E1CF0A7" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 8000 1750 50  0001 C CNN
+AR Path="/5E18E639/5E1CF0A7" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 8000 1750 50  0001 C CNN
 F 1 "VCC" H 8017 2073 50  0000 C CNN
 F 2 "" H 8000 1900 50  0001 C CNN
 F 3 "" H 8000 1900 50  0001 C CNN
@@ -270,8 +270,8 @@ P 7900 2900
 AR Path="/5DD6D4DA/5DEBB035/5E1CF62F" Ref="#PWR?"  Part="1" 
 AR Path="/5E15DEC3/5E1CF62F" Ref="#PWR?"  Part="1" 
 AR Path="/5E151517/5E1CF62F" Ref="#PWR?"  Part="1" 
-AR Path="/5E18E639/5E1CF62F" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 7900 2750 50  0001 C CNN
+AR Path="/5E18E639/5E1CF62F" Ref="#PWR011"  Part="1" 
+F 0 "#PWR011" H 7900 2750 50  0001 C CNN
 F 1 "VSS" H 7800 3000 50  0000 C CNN
 F 2 "" H 7900 2900 50  0001 C CNN
 F 3 "" H 7900 2900 50  0001 C CNN

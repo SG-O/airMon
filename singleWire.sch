@@ -5,20 +5,20 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 11
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "AirMon"
+Date "2020-01-13"
+Rev "0.1"
+Comp "Jörg Bayer"
+Comment1 "CC BY 4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 J5
+L Connector_Generic:Conn_01x04 J6
 U 1 1 5E196217
 P 5400 2700
-F 0 "J5" H 5480 2692 50  0000 L CNN
+F 0 "J6" H 5480 2692 50  0000 L CNN
 F 1 "SW" H 5480 2601 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5400 2700 50  0001 C CNN
 F 3 "~" H 5400 2700 50  0001 C CNN
@@ -45,8 +45,8 @@ P 5100 3200
 AR Path="/5DD6D4DA/5DEBB035/5E198235" Ref="#PWR?"  Part="1" 
 AR Path="/5E15DEC3/5E198235" Ref="#PWR?"  Part="1" 
 AR Path="/5E151517/5E198235" Ref="#PWR?"  Part="1" 
-AR Path="/5E1961BA/5E198235" Ref="#PWR011"  Part="1" 
-F 0 "#PWR011" H 5100 3050 50  0001 C CNN
+AR Path="/5E1961BA/5E198235" Ref="#PWR013"  Part="1" 
+F 0 "#PWR013" H 5100 3050 50  0001 C CNN
 F 1 "VSS" H 5000 3300 50  0000 C CNN
 F 2 "" H 5100 3200 50  0001 C CNN
 F 3 "" H 5100 3200 50  0001 C CNN
