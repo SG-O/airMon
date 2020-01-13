@@ -1,0 +1,293 @@
+EESchema Schematic File Version 4
+LIBS:airMon-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5E18E6E5
+P 4200 2200
+F 0 "J2" H 4250 2617 50  0000 C CNN
+F 1 "PMS7003" H 4250 2526 50  0000 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 4200 2200 50  0001 C CNN
+F 3 "~" H 4200 2200 50  0001 C CNN
+	1    4200 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 2000 4000 1700
+Wire Wire Line
+	4000 1700 4300 1700
+Wire Wire Line
+	4500 1700 4500 2000
+Wire Wire Line
+	4000 2100 3900 2100
+Wire Wire Line
+	3900 2100 3900 2600
+Wire Wire Line
+	3900 2600 4300 2600
+Wire Wire Line
+	4600 2600 4600 2100
+Wire Wire Line
+	4600 2100 4500 2100
+Wire Wire Line
+	4300 1600 4300 1700
+Connection ~ 4300 1700
+Wire Wire Line
+	4300 1700 4500 1700
+$Comp
+L power:VSS #PWR?
+U 1 1 5E190845
+P 4300 2900
+AR Path="/5DD6D4DA/5DEBB035/5E190845" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E190845" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E190845" Ref="#PWR?"  Part="1" 
+AR Path="/5E18E639/5E190845" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 4300 2750 50  0001 C CNN
+F 1 "VSS" H 4200 3000 50  0000 C CNN
+F 2 "" H 4300 2900 50  0001 C CNN
+F 3 "" H 4300 2900 50  0001 C CNN
+	1    4300 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 2600 4300 2900
+Connection ~ 4300 2600
+Wire Wire Line
+	4300 2600 4600 2600
+NoConn ~ 4500 2200
+NoConn ~ 4500 2300
+NoConn ~ 4000 2200
+Wire Wire Line
+	4000 2300 3400 2300
+Wire Wire Line
+	4000 2400 3400 2400
+Text HLabel 3400 2300 0    50   Input ~ 0
+RX
+Text HLabel 3400 2400 0    50   Output ~ 0
+TX
+NoConn ~ 4500 2400
+Text Label 3500 2300 0    50   ~ 0
+PM_RX
+Text Label 3500 2400 0    50   ~ 0
+PM_TX
+$Comp
+L Connector_Generic:Conn_01x08 J3
+U 1 1 5E1913CE
+P 5700 2300
+F 0 "J3" H 5779 2292 50  0000 L CNN
+F 1 "PMSx003" H 5779 2201 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical" H 5700 2300 50  0001 C CNN
+F 3 "~" H 5700 2300 50  0001 C CNN
+	1    5700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2000 5400 2000
+Wire Wire Line
+	5400 1600 5400 1900
+$Comp
+L power:VSS #PWR?
+U 1 1 5E191675
+P 5400 2900
+AR Path="/5DD6D4DA/5DEBB035/5E191675" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E191675" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E191675" Ref="#PWR?"  Part="1" 
+AR Path="/5E18E639/5E191675" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 5400 2750 50  0001 C CNN
+F 1 "VSS" H 5300 3000 50  0000 C CNN
+F 2 "" H 5400 2900 50  0001 C CNN
+F 3 "" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5400 2100 5500 2100
+Wire Wire Line
+	5400 2100 5400 2800
+NoConn ~ 5500 2200
+Wire Wire Line
+	5500 2300 5000 2300
+Wire Wire Line
+	5500 2400 5000 2400
+Text Label 5000 2300 0    50   ~ 0
+PM_RX
+Text Label 5000 2400 0    50   ~ 0
+PM_TX
+NoConn ~ 5500 2500
+NoConn ~ 5500 2600
+NoConn ~ 5500 2700
+Wire Wire Line
+	6800 2500 6300 2500
+Wire Wire Line
+	6800 2600 6300 2600
+Text Label 6300 2500 0    50   ~ 0
+PM_RX
+Text Label 6300 2600 0    50   ~ 0
+PM_TX
+$Comp
+L power:VSS #PWR?
+U 1 1 5E192EE6
+P 6700 2900
+AR Path="/5DD6D4DA/5DEBB035/5E192EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E192EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E192EE6" Ref="#PWR?"  Part="1" 
+AR Path="/5E18E639/5E192EE6" Ref="#PWR010"  Part="1" 
+F 0 "#PWR010" H 6700 2750 50  0001 C CNN
+F 1 "VSS" H 6600 3000 50  0000 C CNN
+F 2 "" H 6700 2900 50  0001 C CNN
+F 3 "" H 6700 2900 50  0001 C CNN
+	1    6700 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6700 2400 6800 2400
+Wire Wire Line
+	6700 2400 6700 2900
+NoConn ~ 6800 2300
+NoConn ~ 6800 2100
+$Comp
+L Connector_Generic:Conn_01x07 J4
+U 1 1 5E19373C
+P 7000 2300
+F 0 "J4" H 7079 2342 50  0000 L CNN
+F 1 "SDS011" H 7079 2251 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical" H 7000 2300 50  0001 C CNN
+F 3 "~" H 7000 2300 50  0001 C CNN
+	1    7000 2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6800 2000
+Wire Wire Line
+	6800 2200 6700 2200
+Wire Wire Line
+	6700 2200 6700 1600
+$Comp
+L Device:C C7
+U 1 1 5E194A64
+P 4800 1950
+F 0 "C7" H 4915 1996 50  0000 L CNN
+F 1 "10u" H 4915 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4838 1800 50  0001 C CNN
+F 3 "~" H 4800 1950 50  0001 C CNN
+F 4 "CL31B106KBHNNNE" H 4800 1950 50  0001 C CNN "manf#"
+	1    4800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 1700 4800 1700
+Wire Wire Line
+	4800 1700 4800 1800
+Connection ~ 4500 1700
+Wire Wire Line
+	4600 2600 4800 2600
+Wire Wire Line
+	4800 2600 4800 2100
+Connection ~ 4600 2600
+Text GLabel 4300 1600 1    50   Input ~ 0
+5V_Switched
+Text GLabel 5400 1600 1    50   Input ~ 0
+5V_Switched
+Text GLabel 6700 1600 1    50   Input ~ 0
+5V_Switched
+$Comp
+L Device:C C4
+U 1 1 5E2321DC
+P 6200 2150
+F 0 "C4" H 6315 2196 50  0000 L CNN
+F 1 "10u" H 6315 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6238 2000 50  0001 C CNN
+F 3 "~" H 6200 2150 50  0001 C CNN
+F 4 "CL31B106KBHNNNE" H 6200 2150 50  0001 C CNN "manf#"
+	1    6200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1900 6200 2000
+Wire Wire Line
+	6200 2800 6200 2300
+Wire Wire Line
+	5400 1900 6200 1900
+Connection ~ 5400 1900
+Wire Wire Line
+	5400 1900 5400 2000
+Wire Wire Line
+	5400 2800 6200 2800
+Connection ~ 5400 2800
+Wire Wire Line
+	5400 2800 5400 2900
+$Comp
+L Connector_Generic:Conn_01x05 J7
+U 1 1 5E1CDC10
+P 8200 2300
+F 0 "J7" H 8280 2342 50  0000 L CNN
+F 1 "Conn_01x05" H 8280 2251 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B05B-XH-A_1x05_P2.50mm_Vertical" H 8200 2300 50  0001 C CNN
+F 3 "~" H 8200 2300 50  0001 C CNN
+	1    8200 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7900 2200 7900 1600
+Text GLabel 7900 1600 1    50   Input ~ 0
+5V_Switched
+Wire Wire Line
+	7900 2200 8000 2200
+Wire Wire Line
+	8000 2100 8000 1900
+$Comp
+L power:VCC #PWR?
+U 1 1 5E1CF0A7
+P 8000 1900
+AR Path="/5DD6D4DA/5DEBB035/5E1CF0A7" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E1CF0A7" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E1CF0A7" Ref="#PWR?"  Part="1" 
+AR Path="/5E1961BA/5E1CF0A7" Ref="#PWR?"  Part="1" 
+AR Path="/5E198729/5E1CF0A7" Ref="#PWR?"  Part="1" 
+AR Path="/5E18E639/5E1CF0A7" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 8000 1750 50  0001 C CNN
+F 1 "VCC" H 8017 2073 50  0000 C CNN
+F 2 "" H 8000 1900 50  0001 C CNN
+F 3 "" H 8000 1900 50  0001 C CNN
+	1    8000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 5E1CF62F
+P 7900 2900
+AR Path="/5DD6D4DA/5DEBB035/5E1CF62F" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E1CF62F" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E1CF62F" Ref="#PWR?"  Part="1" 
+AR Path="/5E18E639/5E1CF62F" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 7900 2750 50  0001 C CNN
+F 1 "VSS" H 7800 3000 50  0000 C CNN
+F 2 "" H 7900 2900 50  0001 C CNN
+F 3 "" H 7900 2900 50  0001 C CNN
+	1    7900 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 2300 7900 2900
+Wire Wire Line
+	7900 2300 8000 2300
+Wire Wire Line
+	8000 2400 7500 2400
+Wire Wire Line
+	8000 2500 7500 2500
+Text Label 7500 2400 0    50   ~ 0
+PM_RX
+Text Label 7500 2500 0    50   ~ 0
+PM_TX
+$EndSCHEMATC
