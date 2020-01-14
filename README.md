@@ -41,3 +41,8 @@
 - Active GNSS Antenna support
 
 ![](https://raw.githubusercontent.com/SG-O/airMon/master/img/pms7003.png)
+
+## Software ##
+This was designed for the Airrohr Firmware developed by Opendata Stuttgart: [https://github.com/opendata-stuttgart/sensors-software/tree/master/airrohr-firmware](https://github.com/opendata-stuttgart/sensors-software/tree/master/airrohr-firmware)
+
+The ESP32 support is currently experimental
