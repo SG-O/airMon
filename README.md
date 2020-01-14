@@ -18,7 +18,7 @@
 - 2 I2C buses on 4 connectors (2 of which have switchable power pins)
 - 2 Additional buffered I2C connectors for longer cables (using P82B715)
 - 8 GPIO
-- Dedicated connectors for several particulate matter sensors
+- Dedicated connectors for several particulate matter sensors with switchable power pins
  - SDS011
  - PMS1003 - PMS6003
  - PMS7003
@@ -34,6 +34,7 @@
 - Overcurrent protection
 - Customizable undervoltage protection (for battery operation)
 - Switchable power outputs for high power sensors
+- Reverse polarity protection
 
 ### Additional features ###
 - Fits inside a 75mm waste pipe
