@@ -19,21 +19,21 @@ L global:L70 U3
 U 1 1 5E1BB4D8
 P 4500 3400
 F 0 "U3" H 4800 2500 50  0000 C CNN
-F 1 "L76" H 4800 2600 50  0000 C CNN
+F 1 "L70/L76/MAX-M8C/MAX-M8Q/MAX-8C/MAX-8Q" H 3400 2600 50  0000 C CNN
 F 2 "global:L70" H 4100 3500 50  0001 C CNN
 F 3 "https://www.quectel.com/UploadImage/Downlad/L70_Hardware_Design_V2.0.pdf" H 4100 3500 50  0001 C CNN
 	1    4500 3400
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3800 3300
-NoConn ~ 3800 3500
+NoConn ~ 3800 3600
 NoConn ~ 5200 3600
 NoConn ~ 5200 3700
 NoConn ~ 3800 3800
 Wire Wire Line
 	4500 4300 4500 4500
 Wire Wire Line
-	4400 2500 4400 1900
+	4400 2500 4400 2300
 Wire Wire Line
 	4400 1900 4500 1900
 Wire Wire Line
@@ -50,7 +50,7 @@ F 3 "" H 4500 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3800 3600 3600 3600
+	3800 3500 3600 3500
 Wire Wire Line
 	3800 3000 3600 3000
 Wire Wire Line
@@ -317,7 +317,7 @@ Text HLabel 3600 3000 0    50   Input ~ 0
 GPS_RX
 Text HLabel 3600 3100 0    50   Output ~ 0
 GPS_TX
-Text HLabel 3600 3600 0    50   Input ~ 0
+Text HLabel 3600 3500 0    50   Input ~ 0
 GPS_Wake
 $Comp
 L Device:C C?
@@ -453,4 +453,11 @@ Wire Wire Line
 	6100 3300 6100 3500
 Wire Wire Line
 	6000 3600 6000 3900
+Wire Wire Line
+	4300 2500 4300 2300
+Wire Wire Line
+	4300 2300 4400 2300
+Connection ~ 4400 2300
+Wire Wire Line
+	4400 2300 4400 1900
 $EndSCHEMATC
