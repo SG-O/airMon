@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name airMon-rescue)(type Legacy)(uri ${KIPRJMOD}/airMon-rescue.lib)(options "")(descr ""))
+)

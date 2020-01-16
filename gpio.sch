@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:airMon-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -140,7 +139,7 @@ Wire Wire Line
 	4400 1300 4500 1300
 Connection ~ 4500 1300
 $Comp
-L Interface_Expansion:PCA9536D U4
+L airMon-rescue:PCA9536D-Interface_Expansion U4
 U 1 1 5E1E8043
 P 7300 2500
 F 0 "U4" H 7600 2800 50  0000 C CNN
