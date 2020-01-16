@@ -1,13 +1,12 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a report to help us improve. Before creating a bug report please read
+  the Contributing Guidelines.
 title: ''
 labels: ''
-assignees: ''
+assignees: SG-O
 
 ---
-
-Before creating a bug report please [read the Contributing Guidelines](https://github.com/SG-O/airMon/blob/master/CONTRIBUTING.md)
 
 **Describe the bug**
 A clear and concise description of what the bug is.
