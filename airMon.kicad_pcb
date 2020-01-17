@@ -312,6 +312,7 @@
 
   (module global:PMS7003 (layer B.Cu) (tedit 5E20CEB1) (tstamp 5E1F564D)
     (at 51.0032 35.2552 180)
+    (attr virtual)
     (fp_text reference REF** (at 0 -1) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
