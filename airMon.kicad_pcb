@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title airMon)
-    (date 2020-01-17)
+    (date 2020-01-19)
     (rev 0.2)
     (company "Jörg Bayer")
     (comment 1 "CC BY 4.0")
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.635)
+    (last_trace_width 0.256)
     (user_trace_width 0.127)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -107,7 +107,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/v0.1/"))
+      (outputdirectory "gerber/v0.2/"))
   )
 
   (net 0 "")
@@ -8475,7 +8475,7 @@
   (segment (start 77.85 69.295) (end 79.104 69.295) (width 0.254) (layer F.Cu) (net 79))
   (segment (start 79.104 69.295) (end 79.689 69.88) (width 0.254) (layer F.Cu) (net 79))
 
-  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 5E1FC1B5) (hatch edge 0.508)
+  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 5E24F1C3) (hatch edge 0.508)
     (connect_pads yes (clearance 0.128))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -8538,7 +8538,7 @@
       )
     )
   )
-  (zone (net 1) (net_name VSS) (layer B.Cu) (tstamp 5E1FC1B2) (hatch edge 0.508)
+  (zone (net 1) (net_name VSS) (layer B.Cu) (tstamp 5E24F1C0) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -9850,7 +9850,7 @@
       )
     )
   )
-  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 5E23D671) (hatch edge 0.508)
+  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 5E24F1BD) (hatch edge 0.508)
     (connect_pads (clearance 0.254))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -12658,7 +12658,7 @@
       )
     )
   )
-  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+  (zone (net 1) (net_name VSS) (layer F.Cu) (tstamp 5E24F1BA) (hatch edge 0.508)
     (connect_pads yes (clearance 0.128))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
