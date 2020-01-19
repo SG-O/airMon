@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title "AirMon"
 Date "2020-01-17"
 Rev "0.2"
@@ -570,5 +570,8 @@ Wire Wire Line
 	5200 1700 5800 1700
 Wire Wire Line
 	4400 1700 5200 1700
-NoConn ~ 7800 2700
+Wire Wire Line
+	7800 2700 8000 2700
+Text HLabel 8000 2700 2    50   Output ~ 0
+LORA_RST
 $EndSCHEMATC
