@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "AirMon"
-Date "2020-01-13"
-Rev "0.1"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""
@@ -207,6 +207,7 @@ F7 "A2" O L 9000 2700 50
 F8 "SDA" B L 9000 2900 50 
 F9 "SCL" I L 9000 3000 50 
 F10 "Power" O R 10300 2100 50 
+F11 "LORA_RST" O R 10300 2300 50 
 $EndSheet
 Wire Wire Line
 	2600 2900 3000 2900
@@ -314,8 +315,53 @@ Text Label 800  4500 0    50   ~ 0
 POWER
 Text Label 800  2200 0    50   ~ 0
 U3_RX
+$Sheet
+S 3600 4400 1200 800 
+U 5E22FCEF
+F0 "LORA" 50
+F1 "lora.sch" 50
+F2 "SCK" I L 3600 4700 50 
+F3 "MOSI" I L 3600 4500 50 
+F4 "MISO" O L 3600 4600 50 
+F5 "LORA_SS" I L 3600 4800 50 
+F6 "LORA_Reset" I L 3600 5000 50 
+F7 "DIO0" O R 4800 4500 50 
+F8 "DIO1" O R 4800 4600 50 
+$EndSheet
+Wire Wire Line
+	3600 4500 3200 4500
+Text Label 3200 4500 0    50   ~ 0
+GPIO_1
+Wire Wire Line
+	3600 4600 3200 4600
+Text Label 3200 4600 0    50   ~ 0
+GPIO_2
+Wire Wire Line
+	3600 4700 3200 4700
+Text Label 3200 4700 0    50   ~ 0
+GPIO_3
+Wire Wire Line
+	3600 4800 3200 4800
+Text Label 3200 4800 0    50   ~ 0
+GPIO_4
+Wire Wire Line
+	3600 5000 3200 5000
+Text Label 3200 5000 0    50   ~ 0
+LORA_RST
+Wire Wire Line
+	10300 2300 10700 2300
+Text Label 10700 2300 2    50   ~ 0
+LORA_RST
+Wire Wire Line
+	4800 4500 5200 4500
+Text Label 5200 4500 2    50   ~ 0
+A1
+Wire Wire Line
+	4800 4600 5200 4600
+Text Label 5200 4600 2    50   ~ 0
+A2
 Wire Wire Line
 	2600 4500 3000 4500
 Text Label 3000 4500 2    50   ~ 0
-A2
+A3
 $EndSCHEMATC

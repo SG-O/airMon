@@ -14,16 +14,19 @@
 ![](https://raw.githubusercontent.com/SG-O/airMon/master/img/connections.png)
 
 ### IO ###
-- 2 Analog IO ports (0 - 12V)
+- 1 Analog IO port (0 - 12V)
+- 1 Analog IO port (0 - 3.3V)
 - 2 I2C buses on 4 connectors (2 of which have switchable power pins)
 - 2 Additional buffered I2C connectors for longer cables (using P82B715)
 - 8 GPIO
+- 1 SW bus
 - Dedicated connectors for several particulate matter sensors with switchable power pins
  - SDS011
  - PMS1003 - PMS6003
  - PMS7003
 - Input for rainfall, wind speed and direction sensors
 - GNSS support (L70/L76/MAX-M8C/MAX-M8Q/MAX-8C/MAX-8Q)
+- LoRa support (RFM95/RFM96/RFM97/RFM98/RFM69)
 - Input voltage measurement
 - JTAG for development
 

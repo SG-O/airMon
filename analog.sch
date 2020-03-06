@@ -3,30 +3,16 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 8 12
 Title "AirMon"
-Date "2020-01-13"
-Rev "0.1"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:+5V #PWR?
-U 1 1 5E1C5B24
-P 6300 1800
-AR Path="/5E18E639/5E1C5B24" Ref="#PWR?"  Part="1" 
-AR Path="/5E1991ED/5E1C5B24" Ref="#PWR?"  Part="1" 
-AR Path="/5E1C55BA/5E1C5B24" Ref="#PWR029"  Part="1" 
-F 0 "#PWR029" H 6300 1650 50  0001 C CNN
-F 1 "+5V" H 6315 1973 50  0000 C CNN
-F 2 "" H 6300 1800 50  0001 C CNN
-F 3 "" H 6300 1800 50  0001 C CNN
-	1    6300 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J14
 U 1 1 5E1C6A01
@@ -41,7 +27,7 @@ $EndComp
 $Comp
 L power:VSS #PWR?
 U 1 1 5E1C6A07
-P 6300 3200
+P 6300 2500
 AR Path="/5DD6D4DA/5DEBB035/5E1C6A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E15DEC3/5E1C6A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E151517/5E1C6A07" Ref="#PWR?"  Part="1" 
@@ -49,11 +35,11 @@ AR Path="/5E1961BA/5E1C6A07" Ref="#PWR?"  Part="1"
 AR Path="/5E198729/5E1C6A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E1991ED/5E1C6A07" Ref="#PWR?"  Part="1" 
 AR Path="/5E1C55BA/5E1C6A07" Ref="#PWR030"  Part="1" 
-F 0 "#PWR030" H 6300 3050 50  0001 C CNN
-F 1 "VSS" H 6200 3300 50  0000 C CNN
-F 2 "" H 6300 3200 50  0001 C CNN
-F 3 "" H 6300 3200 50  0001 C CNN
-	1    6300 3200
+F 0 "#PWR030" H 6300 2350 50  0001 C CNN
+F 1 "VSS" H 6200 2600 50  0000 C CNN
+F 2 "" H 6300 2500 50  0001 C CNN
+F 3 "" H 6300 2500 50  0001 C CNN
+	1    6300 2500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -62,7 +48,7 @@ Wire Wire Line
 	6300 2000 6300 1900
 Wire Wire Line
 	6400 2200 6300 2200
-Text HLabel 5900 2600 0    50   Output ~ 0
+Text HLabel 6300 2100 0    50   Output ~ 0
 A3
 $Comp
 L Connector_Generic:Conn_01x03 J15
@@ -165,63 +151,8 @@ F 5 "0603WAF1502T5E" H 0   0   50  0001 C CNN "manf#"
 $EndComp
 Wire Wire Line
 	7400 2500 7400 2600
-$Comp
-L Device:R R?
-U 1 1 5E1C7814
-P 6000 2350
-AR Path="/5DD6D4DA/5DD6D50E/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED058/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED066/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED074/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DD6D549/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDFF593/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DE2F431/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5E15DEC3/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5E151517/5E1C7814" Ref="R?"  Part="1" 
-AR Path="/5E1C55BA/5E1C7814" Ref="R16"  Part="1" 
-F 0 "R16" H 5930 2396 50  0000 R CNN
-F 1 "47k" H 5930 2305 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 2350 50  0001 C CNN
-F 3 "~" H 6000 2350 50  0001 C CNN
-F 4 "C25819" H 0   0   50  0001 C CNN "lcsc#"
-F 5 "0603WAF4702T5E" H 0   0   50  0001 C CNN "manf#"
-	1    6000 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E1C781A
-P 6000 2850
-AR Path="/5DD6D4DA/5DD6D50E/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED058/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED066/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDED074/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DD6D549/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DDFF593/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5DD6D4DA/5DE2F431/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5E15DEC3/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5E151517/5E1C781A" Ref="R?"  Part="1" 
-AR Path="/5E1C55BA/5E1C781A" Ref="R17"  Part="1" 
-F 0 "R17" H 5930 2896 50  0000 R CNN
-F 1 "15k" H 5930 2805 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5930 2850 50  0001 C CNN
-F 3 "~" H 6000 2850 50  0001 C CNN
-F 4 "C22809" H 0   0   50  0001 C CNN "lcsc#"
-F 5 "0603WAF1502T5E" H 0   0   50  0001 C CNN "manf#"
-	1    6000 2850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	6000 2500 6000 2600
-Wire Wire Line
-	6000 2100 6000 2200
-Wire Wire Line
-	6000 2100 6400 2100
-Wire Wire Line
-	6000 2600 5900 2600
-Connection ~ 6000 2600
-Wire Wire Line
-	6000 2600 6000 2700
+	6400 2100 6300 2100
 Wire Wire Line
 	7400 2200 7400 2100
 Wire Wire Line
@@ -238,13 +169,9 @@ Wire Wire Line
 Connection ~ 7700 3100
 Wire Wire Line
 	7700 3100 7700 3200
+Connection ~ 6300 2400
 Wire Wire Line
-	6300 3100 6000 3100
-Wire Wire Line
-	6000 3100 6000 3000
-Connection ~ 6300 3100
-Wire Wire Line
-	6300 3100 6300 3200
+	6300 2400 6300 2500
 $Comp
 L Device:C C?
 U 1 1 5E2B2B40
@@ -275,12 +202,9 @@ Connection ~ 6300 1900
 Wire Wire Line
 	6300 1900 6300 1800
 Wire Wire Line
-	6300 2200 6300 3100
+	6300 2200 6300 2400
 Wire Wire Line
-	6000 3100 5700 3100
-Wire Wire Line
-	5700 3100 5700 2300
-Connection ~ 6000 3100
+	5700 2400 5700 2300
 $Comp
 L Device:C C?
 U 1 1 5E2B5D1A
@@ -315,4 +239,24 @@ Connection ~ 7400 3100
 Connection ~ 7700 1900
 Wire Wire Line
 	7700 1900 7700 1800
+Wire Wire Line
+	5700 2400 6300 2400
+$Comp
+L power:VCC #PWR?
+U 1 1 5E313941
+P 6300 1800
+AR Path="/5DD6D4DA/5DEBB035/5E313941" Ref="#PWR?"  Part="1" 
+AR Path="/5E15DEC3/5E313941" Ref="#PWR?"  Part="1" 
+AR Path="/5E151517/5E313941" Ref="#PWR?"  Part="1" 
+AR Path="/5E1961BA/5E313941" Ref="#PWR?"  Part="1" 
+AR Path="/5E198729/5E313941" Ref="#PWR?"  Part="1" 
+AR Path="/5E1C55BA/5E313941" Ref="#PWR029"  Part="1" 
+AR Path="/5E1CBADF/5E313941" Ref="#PWR?"  Part="1" 
+F 0 "#PWR029" H 6300 1650 50  0001 C CNN
+F 1 "VCC" H 6317 1973 50  0000 C CNN
+F 2 "" H 6300 1800 50  0001 C CNN
+F 3 "" H 6300 1800 50  0001 C CNN
+	1    6300 1800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

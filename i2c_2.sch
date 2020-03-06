@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 11
+Sheet 6 12
 Title "AirMon"
-Date "2020-01-13"
-Rev "0.1"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""

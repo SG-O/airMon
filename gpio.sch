@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 11
+Sheet 9 12
 Title "AirMon"
-Date "2020-01-13"
-Rev "0.1"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""
@@ -225,12 +225,12 @@ SCL
 Text Label 4400 2700 2    50   ~ 0
 SDA
 Wire Wire Line
-	6600 2600 6800 2600
-Text Label 6600 2600 0    50   ~ 0
+	6600 2700 6800 2700
+Text Label 6600 2700 0    50   ~ 0
 SCL
 Wire Wire Line
-	6800 2700 6600 2700
-Text Label 6600 2700 0    50   ~ 0
+	6800 2600 6600 2600
+Text Label 6600 2600 0    50   ~ 0
 SDA
 Text HLabel 8000 2600 2    50   Output ~ 0
 Power
@@ -570,5 +570,8 @@ Wire Wire Line
 	5200 1700 5800 1700
 Wire Wire Line
 	4400 1700 5200 1700
-NoConn ~ 7800 2700
+Wire Wire Line
+	7800 2700 8000 2700
+Text HLabel 8000 2700 2    50   Output ~ 0
+LORA_RST
 $EndSCHEMATC
