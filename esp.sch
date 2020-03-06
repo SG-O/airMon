@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 12
 Title "AirMon"
-Date "2020-01-19"
-Rev "0.2"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""

@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 12
 Title "AirMon"
-Date "2020-01-19"
-Rev "0.2"
+Date "2020-03-06"
+Rev "0.3"
 Comp "Jörg Bayer"
 Comment1 "CC BY 4.0"
 Comment2 ""
@@ -225,12 +225,12 @@ SCL
 Text Label 4400 2700 2    50   ~ 0
 SDA
 Wire Wire Line
-	6600 2600 6800 2600
-Text Label 6600 2600 0    50   ~ 0
+	6600 2700 6800 2700
+Text Label 6600 2700 0    50   ~ 0
 SCL
 Wire Wire Line
-	6800 2700 6600 2700
-Text Label 6600 2700 0    50   ~ 0
+	6800 2600 6600 2600
+Text Label 6600 2600 0    50   ~ 0
 SDA
 Text HLabel 8000 2600 2    50   Output ~ 0
 Power
